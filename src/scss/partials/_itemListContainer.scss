@@ -1,6 +1,7 @@
 .productsContainer{
     background-color: $backgroundLight;
     transition:  background-color 0.3s ease;
+    box-shadow: 0.3em 0.3em 4em rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,5 +17,6 @@
 }
 .oscuro{
     background-color: $backgroundDark;
+    color: $textColorDark;
     transition: background-color 0.3s ease;
 }

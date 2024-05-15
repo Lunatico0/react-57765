@@ -7,7 +7,6 @@
         margin-inline: auto;
         width: 80%;
         height: 5rem;
-
         .nav {
             margin-block: auto;
 
@@ -21,6 +20,7 @@
                     .navLink {
                         text-decoration: none;
                         color: $textNegro;
+                        transition: background-color 0.3s ease;
                     }
                 }
             }
@@ -43,6 +43,7 @@
         justify-content: center;
         align-items: center;
         left: 80%;
+        transition: background-color 0.3s ease;
 
         .numerito {
             top: 20%;
@@ -61,8 +62,26 @@
             }
         }
     }
+    
 }
 .oscuro{
     background-color: $backgroundDark;
     transition: background-color 0.3s ease;
+    .carrito{
+        color: $textColorDark;
+        transition: background-color 0.3s ease;
+    }
+    .headerCont {
+        .nav {
+            .navMenu {
+                .navItem {
+                    .navLink {
+                        color: $textColorDark;
+                        transition: background-color 0.3s ease;
+                    }
+                }
+            }
+        }
+    }
+    box-shadow: 0.3em 0.3em 4em rgba(0, 0, 0, 0.3) ;
 }
