@@ -1,0 +1,68 @@
+.header {
+    background-color: $backgroundLight;
+    transition:  background-color 0.3s ease;
+    .headerCont {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-inline: auto;
+        width: 80%;
+        height: 5rem;
+
+        .nav {
+            margin-block: auto;
+
+            .navMenu {
+                display: flex;
+                justify-content: space-evenly;
+
+                .navItem {
+                    list-style: none;
+
+                    .navLink {
+                        text-decoration: none;
+                        color: $textNegro;
+                    }
+                }
+            }
+        }
+    }
+
+    .logo {
+        display: flex;
+        color: $textoLogo;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carrito {
+        position: relative;
+        text-decoration: none;
+        color: $textNegro;
+        width: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 80%;
+
+        .numerito {
+            top: 20%;
+            left: 60%;
+
+            &::before {
+                content: " ";
+                position: absolute;
+                display: block;
+                background-color: rgba(190, 181, 148, 0.8);
+                border-radius: 50%;
+                height: 10px;
+                width: 10px;
+                top: 30%;
+                left: 85%;
+            }
+        }
+    }
+}
+.oscuro{
+    background-color: $backgroundDark;
+    transition: background-color 0.3s ease;
+}
