@@ -6,9 +6,14 @@
   max-height: 100vh;
 }
 
+body {
+  background-color: #333438 !important;
+}
+
 .header {
   background-color: #ffffff;
   transition: background-color 0.3s ease;
+  box-shadow: 0.3em 0.3em 4em rgba(0, 0, 0, 0.3);
 }
 .header .headerCont {
   display: grid;
@@ -68,7 +73,6 @@
 .oscuro {
   background-color: #333438;
   transition: background-color 0.3s ease;
-  box-shadow: 0.3em 0.3em 4em rgba(0, 0, 0, 0.3);
 }
 .oscuro .carrito {
   color: #ffffff;
